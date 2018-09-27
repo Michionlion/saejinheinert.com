@@ -1,0 +1,255 @@
+@import "./variables";
+@import "./custom-bootstrap";
+@import "./mixins";
+@import "./paginator";
+
+html {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  height: 100%;
+  font-family: 'Source Code Pro';
+  background-color: $bg-color;
+  color: $text-color;
+  overflow-x: hidden;
+  &>.container-fluid {
+    @extend .no-padding-left-and-right;
+  }
+}
+
+.page-container {
+  height: 100%;
+  min-height: 100%;
+}
+
+a {
+  color: $link-color;
+  &:hover {
+    color: $link-color;
+    text-decoration: underline;
+  }
+}
+
+.content {
+  background-color: $content-bg-color;
+  min-height: 100%;
+  padding-top: 1px;
+  padding-bottom: 15px;
+
+  // column
+  width: 75%;
+  float: left;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.articles-list article {
+  margin-bottom: 25px;
+}
+
+.full-content {
+  width: 100%;
+  height: 100%;
+  min-width: 200px;
+  min-height: 200px;
+
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  border: none;
+
+  object {
+  	width: 100%;
+  	height: 100%;
+    display: block;
+    border: none;
+  }
+
+  embed {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+  }
+}
+
+.social-media-icons {
+	padding: 0;
+	margin: 0;
+
+  .icon {
+  	display: inline-block;
+  	font-size: 42px;
+  	height: 48px;
+  	line-height: 48px;
+  	text-align: center;
+  	vertical-align: top;
+  	width: 48px;
+  	padding: 0;
+  	margin: 0;
+  	margin-left: 6px;
+  	margin-right: 6px;
+  }
+
+/* HACK to center icons without weird padding */
+  .icon.is-center {
+  	margin-right: 0;
+  	margin-left: 4;
+  }
+
+  span i {
+  	color: #c4d8f0;
+  	opacity: 0.65;
+  }
+
+  span a i:hover {
+  	color: #3070b0;
+  	opacity: 1;
+  }
+}
+
+#titlepage {
+  font-size: 0;
+  span {
+    font-size: 14pt;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  span.indent {
+    margin: 0px;
+    padding: 0px;
+    width: 32pt;
+    height: 8pt;
+    display: inline-block;
+  }
+}
+
+.menu {
+  padding-left: 0px;
+  float: left;
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+
+  nav {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    // column
+    width: 25%;
+    float: left;
+    min-height: 1px;
+
+    min-width: 160px;
+    max-width: 300px;
+
+    h3 {
+      @extend .no-user-select;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 4px 0px 4px 15px;
+      margin: 0px;
+      &:before {
+        @extend .glyphicon;
+        @extend .glyphicon-folder-close;
+        margin-right: 8px;
+      }
+
+      &:hover {
+        background-color: $menu-hover-bg-color;
+      }
+
+      &.standalone-page {
+        list-style: none;
+        padding: 4px 0px 4px 15px;
+        &:before {
+          @extend .glyphicon;
+          @extend .glyphicon-file;
+          margin-right: 0px;
+        }
+
+        a, a:hover {
+          color: $text-color;
+          text-decoration: none;
+        }
+      }
+
+    }
+
+    .open {
+      h3:before {
+        @extend .glyphicon-folder-open;
+      }
+    }
+
+    ul {
+      padding-left: 0px;
+      margin: 0px;
+      li {
+        list-style: none;
+        padding: 4px 30px 4px 40px;
+        margin-right: -15px;
+        &:before {
+          @extend .glyphicon;
+          @extend .glyphicon-file;
+          margin-right: 8px;
+        }
+
+        &:hover {
+          background-color: $menu-hover-bg-color;
+        }
+
+        a, a:hover {
+          color: $text-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    @media (max-width: $screen-sm-max) {
+      h3 {
+        padding: 10px 0px 10px 15px;
+      }
+      ul li {
+        padding: 10px 30px 10px 40px;
+      }
+    }
+  }
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 10px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "description": "Saejin Mahlau-Heinert's personal website",
+  "repository": "https://github.com/Michionlion/saejinmh.com",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  },
+  "scripts": {
+    "build": "./build.sh"
+  }
+}

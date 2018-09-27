@@ -1,0 +1,38 @@
+<div id="menu" class="menu">
+<nav>
+
+    <h3 id="home" class="standalone-page">
+        <a href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">
+            Home
+        </a>
+    </h3>
+
+    <h3 id="resume" class="standalone-page">
+        <a href="resume">
+            Resume
+        </a>
+    </h3>
+
+    <!-- {{ println "current:" }} -->
+    <!-- {{ println . }} -->
+    {{ with .Site.Sections }}
+    <!-- {{ println "site sections:" }} -->
+    <!-- {{ println . }} -->
+    {{ range . }}
+    <!-- {{ println "inside site section:" }} -->
+    <!-- {{ println . }} -->
+    <div id="{{.Title}}" class="open">
+        <h3 data-open="{{.Title}}">{{.Title}}</h3>
+        <ul class="{{.Title}}">
+            {{ range .Pages }}
+            <!-- {{ println "page:" }} -->
+            <!-- {{ println . }} -->
+            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+    {{ end }}
+
+</nav>
+</div>
