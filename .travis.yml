@@ -12,6 +12,7 @@ before_install:
   - rm -rf hugo_0.49_Linux-64bit.tar.gz
   - ls
   - export PATH="$PWD:$PATH"
+  - echo $PATH
 
 script:
   # check writing
