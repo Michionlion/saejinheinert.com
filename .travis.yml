@@ -1,4 +1,4 @@
-language:https://github.com/Michionlion/saejinmh.com Python
+language: Python
 
 before_install:
   - gem install mdl
