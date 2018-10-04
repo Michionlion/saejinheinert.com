@@ -127,7 +127,7 @@ a {
 
 #titlepage {
   font-size: 0;
-  span {
+  span, p {
     font-size: 14pt;
     padding: 0px;
     margin: 0px;
@@ -137,12 +137,12 @@ a {
     margin-bottom: 2px;
   }
 
-  span.indent {
-    margin: 0px;
-    padding: 0px;
-    width: 32pt;
-    height: 8pt;
-    display: inline-block;
+  .indented-1 {
+    margin-left: 24pt;
+  }
+
+  .indented-2 {
+    margin-left: 48pt;
   }
 }
 

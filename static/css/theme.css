@@ -2354,7 +2354,7 @@ a {
 
 #titlepage {
   font-size: 0; }
-  #titlepage span {
+  #titlepage span, #titlepage p {
     font-size: 14pt;
     padding: 0px;
     margin: 0px;
@@ -2362,12 +2362,10 @@ a {
     padding-bottom: 2px;
     margin-top: 2px;
     margin-bottom: 2px; }
-  #titlepage span.indent {
-    margin: 0px;
-    padding: 0px;
-    width: 32pt;
-    height: 8pt;
-    display: inline-block; }
+  #titlepage .indented-1 {
+    margin-left: 24pt; }
+  #titlepage .indented-2 {
+    margin-left: 48pt; }
 
 .menu {
   padding-left: 0px;
