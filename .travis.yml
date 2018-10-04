@@ -2,8 +2,9 @@ language: Python
 
 before_install:
   - gem install mdl
+  - gem install sass
   - pip install proselint
-  - npm install stylelint
+  - npm install -g stylelint
   # install hugo
   - wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.tar.gz
   - tar xf hugo_0.49_Linux-64bit.tar.gz hugo
