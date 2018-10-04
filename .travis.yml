@@ -1,0 +1,23 @@
+language: Python
+
+before_install:
+  - gem install mdl
+  - pip install proselint
+  - npm install stylelint
+  # install hugo
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.tar.gz
+  - tar xf hugo_0.49_Linux-64bit.tar.gz -C "$HOME/hugo"
+  - ls $HOME/hugo
+  # probably don't need this but just to be sure
+  - rm -rf hugo_0.49_Linux-64bit.tar.gz
+  - export PATH="$HOME/hugo:$PATH"
+
+script:
+  # check writing
+  - proselint README.md
+  - mdl README.md
+  # lint
+  - stylelint "**/*.scss"
+  # build
+  - ./build.sh
+  - hugo
