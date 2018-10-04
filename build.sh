@@ -36,6 +36,10 @@ if [ "$TARGET" = "js" ]; then
 elif [ "$TARGET" = "css" ]; then
     # build css
     buildCSS
+elif [ "$TARGET" = "serve" ]; then
+    buildJS
+    buildCSS
+    hugo server
 elif [ "$TARGET" = "clean" ]; then
     # clean built files
     clean
