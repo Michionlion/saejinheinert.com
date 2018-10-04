@@ -27,10 +27,15 @@ body {
 
 a {
   color: $link-color;
+  cursor: pointer;
   &:hover {
     color: $link-color;
     text-decoration: underline;
   }
+}
+
+.jlink {
+  cursor: pointer;
 }
 
 .content {
@@ -189,11 +194,6 @@ a {
           @extend .glyphicon-file;
           margin-right: 0px;
         }
-
-        a, a:hover {
-          color: $text-color;
-          text-decoration: none;
-        }
       }
 
     }
@@ -211,6 +211,10 @@ a {
         list-style: none;
         padding: 4px 30px 4px 40px;
         margin-right: -15px;
+
+        color: $text-color;
+        text-decoration: none;
+
         &:before {
           @extend .glyphicon;
           @extend .glyphicon-file;
@@ -219,11 +223,6 @@ a {
 
         &:hover {
           background-color: $menu-hover-bg-color;
-        }
-
-        a, a:hover {
-          color: $text-color;
-          text-decoration: none;
         }
       }
     }
