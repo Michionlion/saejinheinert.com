@@ -14,12 +14,15 @@ before_install:
   - export PATH="$PWD:$PATH"
   - echo $PATH
 
+install:
+  - npm install
+
 script:
   # check writing
   - proselint README.md
   - mdl README.md
   # lint
-  - stylelint "**/*.scss, "**/*.css, **/*.html, **/*.md"
+  - stylelint "**/*.scss, **/*.css, **/*.html, **/*.md"
   # build
   - ./build.sh
   - hugo

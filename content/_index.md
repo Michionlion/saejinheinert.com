@@ -38,8 +38,7 @@ title: "Saejin Mahlau-Heinert"
 <span style="color: #268bd2">roles</span>
 <span style="color: #fdf6e3">&gt;</span>
 <br>
-<span class="indent"></span>
-<span style="color: #fdf6e3">&lt;</span>
+<span class="indented-1" style="color: #fdf6e3">&lt;</span>
 <span style="color: #268bd2">role</span>
 <span style="color: #fdf6e3">&gt;</span>
 <span style="color: #b58900">Software Developer</span>
@@ -47,8 +46,7 @@ title: "Saejin Mahlau-Heinert"
 <span style="color: #268bd2">/role</span>
 <span style="color: #fdf6e3">&gt;</span>
 <br>
-<span class="indent"></span>
-<span style="color: #fdf6e3">&lt;</span>
+<span class="indented-1" style="color: #fdf6e3">&lt;</span>
 <span style="color: #268bd2">role</span>
 <span style="color: #fdf6e3">&gt;</span>
 <span style="color: #b58900">Designer</span>
@@ -56,8 +54,7 @@ title: "Saejin Mahlau-Heinert"
 <span style="color: #268bd2">/role</span>
 <span style="color: #fdf6e3">&gt;</span>
 <br>
-<span class="indent"></span>
-<span style="color: #fdf6e3">&lt;</span>
+<span class="indented-1" style="color: #fdf6e3">&lt;</span>
 <span style="color: #268bd2">role</span>
 <span style="color: #fdf6e3">&gt;</span>
 <span style="color: #b58900">Programmer</span>
