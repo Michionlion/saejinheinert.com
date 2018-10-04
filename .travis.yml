@@ -1,4 +1,4 @@
-language: Python
+language:https://github.com/Michionlion/saejinmh.com Python
 
 before_install:
   - gem install mdl
@@ -18,7 +18,7 @@ script:
   - proselint README.md
   - mdl README.md
   # lint
-  - stylelint "**/*.scss"
+  - stylelint "**/*.scss, "**/*.css, **/*.html, **/*.md"
   # build
   - ./build.sh
   - hugo
