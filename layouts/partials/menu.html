@@ -1,16 +1,12 @@
 <div id="menu" class="menu">
 <nav>
 
-    <h3 id="home" class="standalone-page">
-        <a href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">
-            Home
-        </a>
+    <h3 id="home" class="standalone-page jlink" href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">
+        Home
     </h3>
 
-    <h3 id="resume" class="standalone-page">
-        <a href="resume">
-            Resume
-        </a>
+    <h3 id="resume" class="standalone-page jlink" href="resume">
+        Resume
     </h3>
 
     <!-- {{ println "current:" }} -->
@@ -27,7 +23,7 @@
             {{ range .Pages }}
             <!-- {{ println "page:" }} -->
             <!-- {{ println . }} -->
-            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+            <li class="jlink" href="{{ .URL }}">{{ .Title }}</li>
             {{ end }}
         </ul>
     </div>

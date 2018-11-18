@@ -1,4 +1,6 @@
-(function() {
+function setupMenu() {
+    console.log("menuing");
+
     //get all tags which have an attribute named "data-open"
     var elements = document.querySelectorAll('[data-open]');
     for (var i=0; i<elements.length; i++) {
@@ -33,4 +35,25 @@
             }
         });
     }
-})();
+}
+
+function setupLinks() {
+    console.log("linking");
+    var elements = document.querySelectorAll(".jlink");
+
+    for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        console.log(element);
+        if(element.hasAttribute("href")) {
+            console.log(element);
+            element.addEventListener("click", function(mouseEvent) {
+                console.log("clicked");
+                window.location.href = mouseEvent.target.getAttribute("href");
+            });
+        }
+    }
+
+}
+
+setupMenu();
+setupLinks();
