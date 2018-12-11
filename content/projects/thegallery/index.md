@@ -16,7 +16,9 @@ The key contextualization for *Gallery* can be found in Ian Cheng’s art, espec
 
 The primary motivating idea behind *Gallery* came after a lengthy exploration phase in which the technical challenge of photogrammetry, creating 3D computer representations of reality from photographs, was tackled. From this initial exploration, a mixed reality project based on photogrammetry that focused on merging aspects of physical reality with the digital realm emerged. Using highly configurable software such as COLMAP or RealityCapture, detailed models of our complicated world were created from high-quality images. As the project progressed, the idea of merging the digital realm with the physical gradually morphed into the portal interactions and viewing currently present in *Gallery*, through the influence of Ian Cheng.
 
-
+<div class="video-wrapper">
+<iframe src="https://www.youtube-nocookie.com/embed/Wy-EfQLZTlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Photographic documentation of the creation process can be seen below.
 {{< gallery dir="/images/thegallery/creation" caption-position="none" />}}
