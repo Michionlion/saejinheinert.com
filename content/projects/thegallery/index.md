@@ -6,7 +6,7 @@ title: "The Gallery"
 {{< load-photoswipe >}}
 {{< gallery dir="/images/thegallery/users" caption-position="none" />}}
 
-#### [Windows Download](https://drive.google.com/uc?export=download&id=1G9NpKjfLmfASRWetgFAGWCij0BEoidOG) --- [Linux Download](https://drive.google.com/uc?export=download&id=1G9NpKjfLmfASRWetgFAGWCij0BEoidOG) (untested)
+#### [Windows Download](https://drive.google.com/uc?export=download&confirm=j7PN&id=1G9NpKjfLmfASRWetgFAGWCij0BEoidOG) --- [Linux Download](https://drive.google.com/uc?export=download&confirm=j7PN&id=1G9NpKjfLmfASRWetgFAGWCij0BEoidOG) (untested)
 
 *Gallery* is a site-specific virtual reality experience shown during *Free Wine: Art + Food* at the Allegheny Art Gallery. It explores the concept of Worlding, a way of looking at wholes, systems, cultures, or networks that accounts for emergence and the experience of being in something. It talks of creating Worlds, but also bringing them closer, making them personal, and visualizing them. In this virtual reality experience, the gallery around you will become something more. Exploration and attention are key because if you blink and don’t look around, you just might miss an entire existence.
 
