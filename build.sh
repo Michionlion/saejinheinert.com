@@ -5,6 +5,8 @@ SASS_OUTPUT="static/css/theme.css"
 JS_INPUT="static/js/menu.js"
 JS_OUTPUT="static/js/theme.js"
 
+SASS_EXEC="npx sass"
+
 buildJS() {
     echo "\033[32mBuilding js...\033[0m"
     cp "$JS_INPUT" "$JS_OUTPUT"
@@ -13,7 +15,7 @@ buildJS() {
 
 buildCSS() {
     printf "\033[32mBuilding css...\033[0m\n"
-    sass "$SASS_INPUT" "$SASS_OUTPUT"
+    $SASS_EXEC "$SASS_INPUT" "$SASS_OUTPUT"
     # TODO: in the future could minify here
     printf "\033[1;32mBuilt css!\033[0m\n"
 }
