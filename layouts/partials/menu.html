@@ -9,12 +9,7 @@
         Resume
     </h3>
 
-    <!-- {{ println "current:" }} -->
-    <!-- {{ println . }} -->
-    {{ with .Site.Sections }}
-    <!-- {{ println "site sections:" }} -->
-    <!-- {{ println . }} -->
-    {{ range . }}
+    {{ range where .Site.Sections "Section" "in" .Site.Params.VisibleSections }}
     <!-- {{ println "inside site section:" }} -->
     <!-- {{ println . }} -->
     <div id="{{.Title}}" class="open">
@@ -27,7 +22,6 @@
             {{ end }}
         </ul>
     </div>
-    {{ end }}
     {{ end }}
 
 </nav>
