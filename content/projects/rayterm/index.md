@@ -26,4 +26,4 @@ within other projects.
 
 The full thesis document is available [here](https://saejinmh.com/rayterm.pdf),
 and the open-source implementation repository is available on
-[Github](https://github.com/Michionlion/rayterm).
+[GitHub](https://github.com/Michionlion/rayterm).
