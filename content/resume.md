@@ -3,11 +3,11 @@ title: "Resume"
 layout: "full-content"
 ---
 <div id="resume-pdf" class="full-content">
-	<object data="/resume.pdf" type="application/pdf">
-		<embed src="/resume.pdf" type='application/pdf'>
-			Unable to display - <a href="/resume.pdf">Download</a>
-		</embed>
-	</object>
+  <object data="/resume.pdf" type="application/pdf">
+    <embed src="/resume.pdf" type='application/pdf'>
+      Unable to display - <a href="/resume.pdf">Download</a>
+    </embed>
+  </object>
 </div>
 
 <script defer="defer" type="text/javascript">
