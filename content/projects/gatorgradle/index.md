@@ -16,7 +16,6 @@ function resize(iframe) {
     iframe.style.width = 0 + "px";
     iframe.style.height = 0 + "px";
 
-
     console.log("resized");
     fullElement.style.height = content.clientHeight + "px";
     fullElement.style.width = content.clientWidth + "px";
@@ -27,7 +26,9 @@ function resize(iframe) {
 
 <div id="gatorgradle-website" class="full-content">
     <iframe id="website-iframe" frameborder="0" src="https://gatoreducator.github.io/gatorgradle/">
-    Failed to display project -- visit the [GatorGradle](https://gatoreducator.github.io/gatorgradle/) website for more information!
+Failed to display project -- visit the
+[GatorGradle](https://gatoreducator.github.io/gatorgradle/)
+website for more information!
     </iframe>
 </div>
 
@@ -36,7 +37,6 @@ function resize(iframe) {
     overflow:hidden;
 }
 </style>
-
 
 <script defer="defer" text="text/javascript">
 
