@@ -13,4 +13,4 @@ taxonomies = []
   author = "Saejin Mahlau-Heinert"
   css = "css/theme.css"
   js = "js/theme.js"
-  VisibleSections = ["blog", "projects", "resume", "home"]
+  VisibleSections = ["posts", "projects", "resume", "home"]
