@@ -1,18 +1,21 @@
 language: Python
 python: 3.6
 
+
+env:
+  global:
+    - HUGO_VERSION=0.55.5
+
 before_install:
   - gem install mdl
   - pip install proselint
   - npm install -g sass
   # install hugo
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.tar.gz
-  - tar xf hugo_0.49_Linux-64bit.tar.gz hugo
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - tar -xzvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz hugo
   # probably don't need this but just to be sure
-  - rm -rf hugo_0.49_Linux-64bit.tar.gz
-  - ls
+  - rm -rf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
   - export PATH="$PWD:$PATH"
-  - echo $PATH
 
 install:
   - npm install
@@ -22,5 +25,4 @@ script:
   - proselint README.md
   - mdl *.md content/*.md content/**/*.md
   # build
-  - ./build.sh
-  - hugo
+  - ./build.sh full
