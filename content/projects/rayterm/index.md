@@ -1,7 +1,9 @@
 ---
 title: "RayTerm"
+subtitle: "A Ray-Tracing Rendering Engine for XTerm-like Terminals"
+linkTitle: "RayTerm"
+slug: "rayterm"
 ---
-## A Ray-Tracing Rendering Engine for XTerm-like Terminals
 
 [RayTerm](https://github.com/Michionlion/rayterm) is a Comprehensive Senior
 Project (also known as a bachelor's thesis) developed while I was at Allegheny
