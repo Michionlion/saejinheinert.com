@@ -18,7 +18,7 @@
             {{ range .Pages }}
             <!-- {{ println "page:" }} -->
             <!-- {{ println . }} -->
-            <li class="jlink" href="{{ .URL }}">{{ .Title }}</li>
+            <li class="jlink" href="{{ .Permalink }}">{{ .Title }}</li>
             {{ end }}
         </ul>
     </div>
