@@ -42,6 +42,11 @@ elif [ "$TARGET" = "serve" ]; then
     buildJS
     buildCSS
     hugo server
+elif [ "$TARGET" = "full" ]; then
+    clean
+    buildJS
+    buildCSS
+    hugo
 elif [ "$TARGET" = "clean" ]; then
     # clean built files
     clean
