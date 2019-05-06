@@ -3,4 +3,4 @@
   publish = "dist"
 
 [context.production.environment]
-  HUGO_VERSION = "0.54"
+  HUGO_VERSION = "0.55.5"
