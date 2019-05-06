@@ -1,10 +1,12 @@
 *.log
 *.swp
 
+*.map
+
+theme.css
+theme.js
 
 /dist/
 
 /node_modules/
 /.sass-cache/
-
-/package-lock.json
