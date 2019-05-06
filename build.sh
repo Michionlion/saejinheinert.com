@@ -8,9 +8,9 @@ JS_OUTPUT="static/js/theme.js"
 SASS_EXEC="npx sass"
 
 buildJS() {
-    echo "\033[32mBuilding js...\033[0m"
+    printf "\033[32mBuilding js...\033[0m\n"
     cp "$JS_INPUT" "$JS_OUTPUT"
-    echo "\033[1;32mBuilt js!\033[0m"
+    printf "\033[1;32mBuilt js!\033[0m\n"
 }
 
 buildCSS() {
