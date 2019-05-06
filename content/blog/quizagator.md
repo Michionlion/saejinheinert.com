@@ -1,5 +1,8 @@
 ---
-title: "Quizagator: Deploying a Web Application with AWS and Docker"
+title: "Quizagator"
+subtitle: "Deploying a Web Application with AWS and Docker"
+linkTitle: "Quizagator"
+slug: "quizagator"
 ---
 
 In [Quizagator](https://github.com/GatorEducator/quizagator), a recent project
@@ -34,7 +37,7 @@ every container, this log is visible if you attach to the container or access
 the logs --- a super useful thing to have, without any need for explicit data
 storage or logging system!
 
-```Dockerfile
+```bash
 FROM python:3.7.3-alpine
 MAINTAINER gkapfham@allegheny.edu
 ENV APP_DIR /quizagator/
