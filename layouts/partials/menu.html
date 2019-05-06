@@ -15,10 +15,10 @@
     <div id="{{.Title}}" class="open">
         <h3 data-open="{{.Title}}">{{.Title}}</h3>
         <ul class="{{.Title}}">
-            {{ range .Pages }}
+            {{ range (union .Sections .Pages).ByLinkTitle }}
             <!-- {{ println "page:" }} -->
             <!-- {{ println . }} -->
-            <li class="jlink" href="{{ .Permalink }}">{{ .Title }}</li>
+            <li class="jlink" href="{{ .Permalink }}">{{ .LinkTitle }}</li>
             {{ end }}
         </ul>
     </div>
