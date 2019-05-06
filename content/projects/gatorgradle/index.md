@@ -26,7 +26,7 @@ function resize(iframe) {
 
 <div id="gatorgradle-website" class="full-content">
     <iframe id="website-iframe" frameborder="0" src="https://gatoreducator.github.io/gatorgradle/">
-Failed to display project -- visit the
+Failed to display project --- visit the
 [GatorGradle](https://gatoreducator.github.io/gatorgradle/)
 website for more information!
     </iframe>
