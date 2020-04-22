@@ -51,7 +51,7 @@ title: "Saejin Mahlau-Heinert"
 <span class="indented-1" style="color: #fdf6e3">&lt;</span>
 <span style="color: #268bd2">role</span>
 <span style="color: #fdf6e3">&gt;</span>
-<span style="color: #b58900">Software Developer</span>
+<span style="color: #b58900">Software Architect</span>
 <span style="color: #fdf6e3">&lt;</span>
 <span style="color: #268bd2">/role</span>
 <span style="color: #fdf6e3">&gt;</span>
