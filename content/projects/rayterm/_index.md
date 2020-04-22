@@ -29,3 +29,7 @@ within other projects.
 The full thesis document is [available]({{< ref "thesis.md" >}}),
 and the open-source implementation repository is available on
 [GitHub](https://github.com/Michionlion/rayterm).
+
+<div class="video-wrapper">
+<iframe src="https://www.youtube-nocookie.com/embed/mr3k4GER3Rs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
