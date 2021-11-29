@@ -1,2 +1,2 @@
-# Redirect default Netlify subdomain to primary domain
-https://saejinmh.netlify.com/* https://saejinmh.com/:splat 301!
+# Redirect old domain to primary domain
+https://saejinmh.com/* https://saejinheinert.com/:splat 301!
