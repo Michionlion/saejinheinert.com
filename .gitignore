@@ -4,9 +4,10 @@
 *.map
 
 theme.css
-theme.js
 
 /dist/
 
 /node_modules/
 /.sass-cache/
+
+.hugo_build*
