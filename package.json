@@ -1,18 +1,12 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Saejin Mahlau-Heinert's personal website",
   "repository": "https://github.com/Michionlion/saejinmh.com",
   "license": "MIT",
   "dependencies": {
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap-sass": "^3.4.1"
   },
   "scripts": {
-    "build": "./build.sh"
-  },
-  "stylelint": {
-    "extends": "stylelint-config-standard",
-    "rules": {
-      "indentation": "2"
-    }
+    "build": "./build.sh full"
   }
 }
