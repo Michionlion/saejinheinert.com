@@ -10,3 +10,9 @@
   to = "https://saejinheinert.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://saejinheinert.netlify.app/*"
+  to = "https://saejinheinert.com/:splat"
+  status = 301
+  force = true
