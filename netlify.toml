@@ -4,3 +4,9 @@
 
 [context.production.environment]
   HUGO_VERSION = "0.89.4"
+
+[[redirects]]
+  from = "https://saejinmh.com/*"
+  to = "https://saejinheinert.com/:splat"
+  status = 301
+  force = true
