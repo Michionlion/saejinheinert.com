@@ -50,7 +50,7 @@ html, body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0.333em 0;
 }
 
 small {
@@ -84,6 +84,62 @@ a:focus {
   text-decoration: underline;
 }
 
+@keyframes slideIn {
+  0% {
+    opacity: 0.2;
+    transform: translateX(-100%);
+  }
+  35% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#logo {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  position: relative;
+  animation: 1s ease-out .2s 1 slideIn;
+
+}
+
+#logo img {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 16px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  image-rendering: pixelated;
+  width: calc(80px + 16px);
+  height: 80px;
+  cursor: pointer;
+}
+
+@keyframes crossfade {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#logo img.carat {
+  animation: 1030ms ease-in-out 0.9s infinite alternate crossfade;
+}
+
 .page-container {
   width: 100%;
   min-height: 100%;
@@ -103,9 +159,9 @@ a:focus {
 }
 
 .subtitle {
-  margin-top: -0.9em;
+  margin-top: -0.333em;
   margin-bottom: 0.5em;
-  padding-bottom: 0.35em;
+  padding-bottom: 0.333em;
   border-bottom: 1px solid var(--fg-color);
 }
 
@@ -125,7 +181,7 @@ a:focus {
   flex: 3 1 auto;
   background-color: var(--bg-2-color);
   padding: 10px;
-  padding-top: 1px;
+  padding-top: 0;
 }
 
 .menu {

@@ -5,6 +5,8 @@ title: "Saejin Mahlau-Heinert"
 <style>
   #titlepage {
     font-size: 0;
+    margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
   }
 
   #titlepage span,
@@ -25,81 +27,107 @@ title: "Saejin Mahlau-Heinert"
   #titlepage .indented-2 {
     margin-left: 48pt;
   }
+}
+
 </style>
 
 <div id="titlepage">
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">name</span>
-<span style="color: #fdf6e3">&gt;</span>
-<span style="color: #b58900">Saejin Mahlau-Heinert</span>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/name</span>
-<span style="color: #fdf6e3">&gt;</span>
+
+<div id="name" class="type" style="--n:34">
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">name</span>
+  <span style="color: #fdf6e3">&gt;</span>
+  <span style="color: #b58900">Saejin Mahlau-Heinert</span>
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">/name</span>
+  <span style="color: #fdf6e3">&gt;</span>
+</div>
+
 <br>
 <span>&nbsp;</span>
 <br>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">github</span>
-<span style="color: #fdf6e3">&gt;</span>
-<a href="https://github.com/Michionlion">
-<span style="color: #2aa198">https://github.com/Michionlion</span>
-</a>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/github</span>
-<span style="color: #fdf6e3">&gt;</span>
+
+<div id="github">
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">github</span>
+  <span style="color: #fdf6e3">&gt;</span>
+  <a href="https://github.com/Michionlion">
+  <span style="color: #2aa198">https://github.com/Michionlion</span>
+  </a>
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">/github</span>
+  <span style="color: #fdf6e3">&gt;</span>
+</div>
+
 <br>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">linkedin</span>
-<span style="color: #fdf6e3">&gt;</span>
-<a href="https://www.linkedin.com/in/saejinmh/">
-<span style="color: #2aa198">https://www.linkedin.com/in/saejinmh</span>
-</a>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/linkedin</span>
-<span style="color: #fdf6e3">&gt;</span>
+
+<div id="linkedin">
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">linkedin</span>
+  <span style="color: #fdf6e3">&gt;</span>
+  <a href="https://www.linkedin.com/in/saejinmh/">
+  <span style="color: #2aa198">https://www.linkedin.com/in/saejinmh</span>
+  </a>
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">/linkedin</span>
+  <span style="color: #fdf6e3">&gt;</span>
+</div>
+
 <br>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">stackoverflow</span>
-<span style="color: #fdf6e3">&gt;</span>
-<a href="https://stackoverflow.com/users/3997791">
-<span style="color: #2aa198">https://stackoverflow.com/users/3997791</span>
-</a>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/stackoverflow</span>
-<span style="color: #fdf6e3">&gt;</span>
+
+<div id="stackoverflow">
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">stackoverflow</span>
+  <span style="color: #fdf6e3">&gt;</span>
+  <a href="https://stackoverflow.com/users/3997791">
+  <span style="color: #2aa198">https://stackoverflow.com/users/3997791</span>
+  </a>
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">/stackoverflow</span>
+  <span style="color: #fdf6e3">&gt;</span>
+</div>
+
 <br>
 <span>&nbsp;</span>
 <br>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">roles</span>
-<span style="color: #fdf6e3">&gt;</span>
-<br>
-<span class="indented-1" style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">role</span>
-<span style="color: #fdf6e3">&gt;</span>
-<span style="color: #b58900">Software Architect</span>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/role</span>
-<span style="color: #fdf6e3">&gt;</span>
-<br>
-<span class="indented-1" style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">role</span>
-<span style="color: #fdf6e3">&gt;</span>
-<span style="color: #b58900">Programmer</span>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/role</span>
-<span style="color: #fdf6e3">&gt;</span>
-<br>
-<span class="indented-1" style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">role</span>
-<span style="color: #fdf6e3">&gt;</span>
-<span style="color: #b58900">Artist</span>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/role</span>
-<span style="color: #fdf6e3">&gt;</span>
-<br>
-<span style="color: #fdf6e3">&lt;</span>
-<span style="color: #268bd2">/roles</span>
-<span style="color: #fdf6e3">&gt;</span>
-<br>
+
+<div id="roles">
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">roles</span>
+  <span style="color: #fdf6e3">&gt;</span>
+  <br>
+  <div id="role-1">
+    <span class="indented-1" style="color: #fdf6e3">&lt;</span>
+    <span style="color: #268bd2">role</span>
+    <span style="color: #fdf6e3">&gt;</span>
+    <span style="color: #b58900">Software Architect</span>
+    <span style="color: #fdf6e3">&lt;</span>
+    <span style="color: #268bd2">/role</span>
+    <span style="color: #fdf6e3">&gt;</span>
+  </div>
+  <br>
+  <div id="role-2">
+    <span class="indented-1" style="color: #fdf6e3">&lt;</span>
+    <span style="color: #268bd2">role</span>
+    <span style="color: #fdf6e3">&gt;</span>
+    <span style="color: #b58900">Programmer</span>
+    <span style="color: #fdf6e3">&lt;</span>
+    <span style="color: #268bd2">/role</span>
+    <span style="color: #fdf6e3">&gt;</span>
+  </div>
+  <br>
+  <div id="role-3">
+    <span class="indented-1" style="color: #fdf6e3">&lt;</span>
+    <span style="color: #268bd2">role</span>
+    <span style="color: #fdf6e3">&gt;</span>
+    <span style="color: #b58900">Artist</span>
+    <span style="color: #fdf6e3">&lt;</span>
+    <span style="color: #268bd2">/role</span>
+    <span style="color: #fdf6e3">&gt;</span>
+  </div>
+  <br>
+  <span style="color: #fdf6e3">&lt;</span>
+  <span style="color: #268bd2">/roles</span>
+  <span style="color: #fdf6e3">&gt;</span>
+</div id="roles">
 </div>
