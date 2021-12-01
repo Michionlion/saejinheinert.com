@@ -2,7 +2,6 @@ baseURL = "https://saejinheinert.com/"
 title = "Saejin Mahlau-Heinert"
 description = "Personal Website"
 
-googleAnalytics = "UA-125774774-1"
 enableGitInfo = true
 
 publishDir = "dist"
