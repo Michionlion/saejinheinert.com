@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+    url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
+      format('svg');
+}
+
+:root {
+  --bg-color: rgba(0,31,39,1);
+  --bg-2-color: rgba(0,43,54,1);
+  --fg-color: rgba(131,148,150,1);
+  --fg-2-color: rgba(119,119,119,1);
+  --hover-color: rgba(0,59,74,1);
+  --link-color: rgba(42,161,152,1);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Code Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  background-color: rgba(0, 31, 39, 1);
+  color: var(--fg-color);
+  overflow-x: hidden;
+  min-height: 100%;
+  height: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+small {
+  font-size: 80%;
+}
+
+figure {
+  margin: 0;
+}
+
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: var(--fg-2-color);
+  text-align: left;
+}
+
+code, pre {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.page-container {
+  width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+@media screen and (max-width: 500px){
+  .page-container {
+    flex-direction: column;
+  }
+}
+
+.subtitle {
+  margin-top: -0.9em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--fg-color);
+}
+
+.full-content,
+.full-content object,
+.full-content embed,
+.full-content iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  flex: 3 1 auto;
+  background-color: var(--bg-2-color);
+  padding: 10px;
+  padding-top: 1px;
+}
+
+.menu {
+  flex: 0 0 190px;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.page-link {
+  cursor: pointer;
+  white-space: nowrap;
+  list-style: none;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.menu .top-level {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 10px 4px 15px;
+  margin: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.menu .top-level:before {
+  margin-right: 8px;
+}
+
+.menu .top-level:hover {
+  background-color: var(--hover-color);
+}
+
+.menu .directory-list {
+  padding-left: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.menu .directory-list > .page-link {
+  padding: 4px 30px 4px 40px;
+  color: var(--fg-color);
+  text-decoration: none;
+}
+
+.menu .directory-list > .page-link:before {
+  margin-right: 8px;
+}
+
+.menu .directory-list > .page-link:hover {
+  background-color: var(--hover-color);
+}
+
+.menu .page-link:before,
+.menu .directory-link:before {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu .page-link:before {
+  content: '\e022';
+}
+
+.menu .directory-link:before {
+  content: '\e118';
+}
+
+.menu .directory:not(.open) .directory-link:before {
+  content: '\e117';
+}
+
+.menu .directory:not(.open) .directory-list > .page-link {
+  display: none !important;
+}
