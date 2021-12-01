@@ -1,28 +1,24 @@
 <div id="menu" class="menu">
-<nav>
-
-    <h3 id="home" class="standalone-page jlink" href="{{ index .Site.Params "rootlink" | default .Site.BaseURL }}">
-        Home
-    </h3>
-
-    <h3 id="resume" class="standalone-page jlink" href="resume">
-        Resume
-    </h3>
-
-    {{ range where .Site.Sections "Section" "in" .Site.Params.VisibleSections }}
-    <!-- {{ println "inside site section:" }} -->
-    <!-- {{ println . }} -->
-    <div id="{{.Title}}" class="open">
-        <h3 data-open="{{.Title}}">{{.Title}}</h3>
-        <ul class="{{.Title}}">
-            {{ range (union .Sections .Pages).ByLinkTitle }}
-            <!-- {{ println "page:" }} -->
-            <!-- {{ println . }} -->
-            <li class="jlink" href="{{ .Permalink }}">{{ .LinkTitle }}</li>
-            {{ end }}
-        </ul>
-    </div>
-    {{ end }}
-
-</nav>
+    <nav>
+        <h3 id="home" class="top-level page-link" href="{{ index .Site.Params " rootlink" | default .Site.BaseURL }}">
+            Home
+        </h3>
+        <h3 id="resume" class="top-level page-link" href="resume">
+            Resume
+        </h3>
+        {{ range where .Site.Sections "Section" "in" .Site.Params.VisibleSections }}
+        <!-- {{ println "inside site section:" }} -->
+        <!-- {{ println . }} -->
+        <div id="{{.Title}}" class="open directory">
+            <h3 class="top-level directory-link">{{.Title}}</h3>
+            <ul class="directory-list">
+                {{ range (union .Sections .Pages).ByLinkTitle }}
+                <!-- {{ println "page:" }} -->
+                <!-- {{ println . }} -->
+                <li class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </nav>
 </div>
