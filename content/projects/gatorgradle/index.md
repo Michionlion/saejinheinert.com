@@ -3,44 +3,29 @@ title: "GatorGradle"
 layout: "full-content"
 ---
 
-<script text="text/javascript">
-function resize(iframe) {
-    var fullElementId = "gatorgradle-website"
-    var content = document.getElementById("content");
-    var fullElement = document.getElementById(fullElementId);
-    content.style.padding = 0;
-    content.style.margin = 0;
+<style>
+  #content {
+    padding: 0;
+    margin: 0;
+  }
+</style>
 
-    fullElement.style.height = 0 + "px";
-    fullElement.style.width = 0 + "px";
-    iframe.style.width = 0 + "px";
-    iframe.style.height = 0 + "px";
-
-    console.log("resized");
-    fullElement.style.height = content.clientHeight + "px";
-    fullElement.style.width = content.clientWidth + "px";
-    iframe.style.width = content.clientWidth + "px";
-    iframe.style.height = content.clientHeight + "px";
-}
-</script>
-
-<div id="gatorgradle-website" class="full-content">
-    <iframe id="website-iframe" frameborder="0" src="https://gatoreducator.github.io/gatorgradle/">
+<div id="website" class="full-content" >
+    <iframe frameborder="0" src="https://gatoreducator.github.io/gatorgradle/">
 Failed to display project --- visit the
 [GatorGradle](https://gatoreducator.github.io/gatorgradle/)
 website for more information!
     </iframe>
 </div>
 
-<style type="text/css">
-#gatorgradle-website {
-    overflow:hidden;
+<script defer type="text/javascript">
+function resize() {
+  const website = document.getElementById('website');
+  const content = document.getElementById('content');
+  website.style.height = `1px`;
+  website.style.height = content.offsetHeight + 'px';
 }
-</style>
 
-<script defer="defer" text="text/javascript">
-
-iframe = document.getElementById("website-iframe");
-window.addEventListener("resize", function(){resize(iframe);});
-resize(iframe);
+resize();
+window.addEventListener('resize', resize);
 </script>

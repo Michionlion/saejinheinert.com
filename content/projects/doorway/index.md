@@ -8,6 +8,4 @@ similar to the feeling that the chimpanzees probably felt during the opening of
 *2001: A Space Odyssey*. *2001*'s monolith was also an inspiration for the look
 of the portal itself.
 
-<div class="video-wrapper">
-<iframe src="https://www.youtube-nocookie.com/embed/_BE0X5lyiwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+{{< youtube id="_BE0X5lyiwA" autoplay="true" title="Doorway" frameborder="0" >}}

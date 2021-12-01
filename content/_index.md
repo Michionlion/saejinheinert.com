@@ -1,6 +1,32 @@
 ---
 title: "Saejin Mahlau-Heinert"
 ---
+
+<style>
+  #titlepage {
+    font-size: 0;
+  }
+
+  #titlepage span,
+  #titlepage p {
+    font-size: 14pt;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  #titlepage .indented-1 {
+    margin-left: 24pt;
+  }
+
+  #titlepage .indented-2 {
+    margin-left: 48pt;
+  }
+</style>
+
 <div id="titlepage">
 <span style="color: #fdf6e3">&lt;</span>
 <span style="color: #268bd2">name</span>

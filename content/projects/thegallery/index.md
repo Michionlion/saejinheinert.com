@@ -1,7 +1,7 @@
 ---
 title: "The Gallery"
+subtitle: "A Virtual Reality Experience"
 ---
-## A Virtual Reality Experience
 
 {{< load-photoswipe >}}
 {{< gallery dir="/images/thegallery/users" caption-position="none" />}}
@@ -45,9 +45,7 @@ progressed, the idea of merging the digital realm with the physical gradually
 morphed into the portal interactions and viewing currently present in
 *Gallery*, through the influence of Ian Cheng.
 
-<div class="video-wrapper">
-<iframe src="https://www.youtube-nocookie.com/embed/Wy-EfQLZTlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{{< youtube id="Wy-EfQLZTlo" autoplay="true" title="RayTerm Demonstration" >}}
 
 Photographic documentation of the creation process can be seen below.
 {{< gallery dir="/images/thegallery/creation" caption-position="none" />}}
