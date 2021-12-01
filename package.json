@@ -3,10 +3,12 @@
   "description": "Saejin Mahlau-Heinert's personal website",
   "repository": "https://github.com/Michionlion/saejinmh.com",
   "license": "MIT",
-  "dependencies": {
-    "bootstrap-sass": "^3.4.1"
-  },
   "scripts": {
-    "build": "./build.sh full"
+    "clean": "rm -rf ./dist",
+    "build": "yarn clean && HUGO_VERSION=0.89.4/extended hugo",
+    "serve": "HUGO_VERSION=0.89.4/extended hugo server"
+  },
+  "devDependencies": {
+    "hugo-cli": "^0.11.0"
   }
 }

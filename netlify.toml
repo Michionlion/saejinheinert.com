@@ -1,18 +1,18 @@
 [build]
-  command = "./build.sh full"
-  publish = "dist"
+command = "./build.sh full"
+publish = "dist"
 
 [context.production.environment]
-  HUGO_VERSION = "0.89.4"
+HUGO_VERSION = "0.89.4"
 
 [[redirects]]
-  from = "https://saejinmh.com/*"
-  to = "https://saejinheinert.com/:splat"
-  status = 301
-  force = true
+from = "https://saejinmh.com/*"
+to = "https://saejinheinert.com/:splat"
+status = 301
+force = true
 
 [[redirects]]
-  from = "https://saejinheinert.netlify.app/*"
-  to = "https://saejinheinert.com/:splat"
-  status = 301
-  force = true
+from = "https://saejinheinert.netlify.app/*"
+to = "https://saejinheinert.com/:splat"
+status = 301
+force = true

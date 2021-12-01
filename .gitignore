@@ -1,13 +1,8 @@
 *.log
 *.swp
 
-*.map
-
-theme.css
-
 /dist/
 
 /node_modules/
-/.sass-cache/
 
 .hugo_build*

@@ -1,4 +1,4 @@
-baseURL = "https://saejinmh.com/"
+baseURL = "https://saejinheinert.com/"
 title = "Saejin Mahlau-Heinert"
 description = "Personal Website"
 
@@ -10,7 +10,10 @@ publishDir = "dist"
 taxonomies = []
 
 [params]
-  author = "Saejin Mahlau-Heinert"
-  css = "css/theme.css"
-  js = "js/theme.js"
-  VisibleSections = ["posts", "projects", "resume", "home"]
+author = "Saejin Mahlau-Heinert"
+css = "css/theme.css"
+js = "js/theme.js"
+VisibleSections = ["projects", "posts", "resume", "home"]
+
+[markup.goldmark.renderer]
+unsafe = true
