@@ -7,9 +7,9 @@
         <h3 id="home" class="top-level page-link" href="{{ index .Site.Params " rootlink" | default .Site.BaseURL }}">
             Home
         </h3>
-        <!-- <h3 id="resume" class="top-level page-link" href="resume">
+        <h3 id="resume" class="top-level page-link" href="resume">
             Resume
-        </h3> -->
+        </h3>
         {{ range where .Site.Sections "Section" "in" .Site.Params.VisibleSections }}
         <!-- {{ println "inside site section:" }} -->
         <!-- {{ println . }} -->

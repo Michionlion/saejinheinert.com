@@ -12,7 +12,7 @@ taxonomies = []
 author = "Saejin Mahlau-Heinert"
 css = "css/theme.css"
 js = "js/theme.js"
-VisibleSections = ["projects", "posts", "home"]
+VisibleSections = ["projects", "posts", "resume", "home"]
 
 [markup.goldmark.renderer]
 unsafe = true
