@@ -1,10 +1,10 @@
 # Personal Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/091e14e3-9619-4c50-89e9-369da947f7e1/deploy-status)](https://app.netlify.com/sites/saejinmh/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/091e14e3-9619-4c50-89e9-369da947f7e1/deploy-status)](https://app.netlify.com/sites/saejinheinert/deploys)
 
 Built using Netlify and Hugo, along with Javascript, CSS, Markdown, and HTML.
 
-[Visit it](https://saejinmh.com)
+[Visit it](https://saejinheinert.com)
 
 ## Developing
 
