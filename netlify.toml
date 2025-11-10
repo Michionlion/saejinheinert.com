@@ -3,7 +3,7 @@ command = "yarn build"
 publish = "dist"
 
 [context.production.environment]
-HUGO_VERSION = "0.89.4"
+HUGO_VERSION = "0.121.2"
 
 [[redirects]]
 from = "https://saejinmh.com/*"
